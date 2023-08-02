@@ -35,6 +35,10 @@ body {
     background-size: cover;
     text-align: center;
     height: 100vh;
+    background: var(--bg-url) no-repeat top center / cover;
+    transition: background var(--transition-duration);
+    height: 100vh;
+    padding-top: 56px;
 }
 
 #container {
